@@ -40,7 +40,7 @@ const About = () => {
                     <h3 className="text-2xl font-semibold mb-6 border-b-2 border-blue-900 inline-block">Minha Jornada</h3>
                     <div className="space-y-6">
                         <div className="border-l-4 border-blue-900 pl-4">
-                            <h4 className="text-xl font-bold">2017 - Fundação da Digital Move</h4>
+                            <h4 className="text-xl font-bold">2020 - Fundação da Digital Move</h4>
                             <p>Iniciou a emissão de cartões virtuais e outros serviços para o mercado digital angolano e português.</p>
                         </div>
                         <div className="border-l-4 border-blue-900 pl-4">
