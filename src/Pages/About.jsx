@@ -44,7 +44,7 @@ const About = () => {
                             <p>Iniciou a emissão de cartões virtuais e outros serviços para o mercado digital angolano e português.</p>
                         </div>
                         <div className="border-l-4 border-blue-900 pl-4">
-                            <h4 className="text-xl font-bold">2020 - Mais de 170 colaboradores</h4>
+                            <h4 className="text-xl font-bold">2022 - Mais de 170 colaboradores</h4>
                             <p>A Digital Move cresceu e emprega mais de 170 pessoas, faturando milhões de kwanzas mensalmente.</p>
                         </div>
                         <div className="border-l-4 border-blue-900 pl-4">
