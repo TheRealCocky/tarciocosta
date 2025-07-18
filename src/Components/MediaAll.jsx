@@ -1,5 +1,5 @@
 import React from 'react';
-import { mediaData } from '../data/mediaData'; // use o mesmo arquivo
+import { mediaData } from '../Data/mediaData.js'; // use o mesmo arquivo
 
 const MediaAll = () => {
     return (
