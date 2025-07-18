@@ -1,12 +1,12 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Code, BarChart2, Zap, Monitor } from 'lucide-react';
+import { Rocket, BarChart2, Zap, Monitor } from 'lucide-react';
 
 const servicos = [
     {
-        titulo: "Desenvolvimento Web",
-        descricao: "Sites e plataformas modernas, otimizadas e responsivas.",
-        icon: <Code size={32} className="text-yellow-500" />,
+        titulo: "Lançamento de Negócios Digitais",
+        descricao: "Criação, estruturação e escalabilidade de startups e produtos digitais.",
+        icon: <Rocket size={32} className="text-yellow-500" />,
     },
     {
         titulo: "Automação de Negócios",

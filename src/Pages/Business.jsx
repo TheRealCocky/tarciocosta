@@ -1,24 +1,26 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import Elevafit from '../images/elevafits.png';
+import DigitalMove from '../images/digitalmove.png';
+import ClubeDosGenios from '../images/clubedosgenios.png';
 const projetos = [
     {
         id: "elevafit",
         titulo: "ElevaFit Supplement",
         descricao: "Marca internacional de suplementos aprovada pela FDA.",
-        imagem: "https://via.placeholder.com/600x400?text=ElevaFit",
+        imagem: Elevafit,
     },
     {
         id: "digital-move",
         titulo: "Digital Move",
         descricao: "Startup angolana com 170+ colaboradores.",
-        imagem: "https://via.placeholder.com/600x400?text=Digital+Move",
+        imagem:DigitalMove,
     },
     {
         id: "clube-dos-genios",
         titulo: "Clube dos Génios",
         descricao: "Plataforma de educação financeira com impacto global.",
-        imagem: "https://via.placeholder.com/600x400?text=Clube+dos+Génios",
+        imagem: ClubeDosGenios,
     }
 ];
 

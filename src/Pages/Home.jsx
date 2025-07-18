@@ -1,6 +1,6 @@
 import React from 'react';
 import Footer from "../Components/Footer.jsx";
-
+import tarcio1 from "../images/tarcio1.png"
 const Home = () => {
     return (
         <div className="bg-light min-h-screen font-sans text-dark">
@@ -17,11 +17,22 @@ const Home = () => {
 
             {/* Sobre Section */}
             <section id="sobre" className="py-20 px-6 md:px-20 bg-white">
-                <h2 className="text-3xl font-semibold mb-6">Quem é Tárcio Costa?</h2>
-                <p className="text-muted max-w-3xl leading-relaxed">
-                    Tárcio é um nome de referência no universo digital em Angola. Ele lidera projetos com impacto direto na economia digital, formando empreendedores, gerando oportunidades e transformando ideias em negócios sustentáveis.
-                </p>
+                <div className="flex flex-col-reverse md:flex-row items-center gap-10">
+                    <div>
+                        <h2 className="text-3xl font-semibold mb-6">Quem é Tárcio Costa?</h2>
+                        <p className="text-muted max-w-3xl leading-relaxed text-lg">
+                            Tárcio é um nome de referência no universo digital em Angola. Ele lidera projetos com impacto direto na economia digital, formando empreendedores, gerando oportunidades e transformando ideias em negócios sustentáveis.
+                        </p>
+                    </div>
+
+                    <img
+                        src={tarcio1}
+                        alt="Retrato de Tárcio Costa, empreendedor digital angolano"
+                        className="w-full md:w-[400px] rounded-xl shadow-lg object-cover"
+                    />
+                </div>
             </section>
+
 
             {/* Destaques Section */}
             <section className="bg-gray-100 py-20 px-6 md:px-20">

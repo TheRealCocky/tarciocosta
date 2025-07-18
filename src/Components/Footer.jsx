@@ -2,6 +2,7 @@ import React from 'react';
 import { FaInstagram, FaLinkedin, FaYoutube } from 'react-icons/fa';
 
 const Footer = () => (
+
     <footer className="bg-primary text-white py-10 px-6 mt-10">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center text-center md:text-left gap-4">
             <p className="text-sm">

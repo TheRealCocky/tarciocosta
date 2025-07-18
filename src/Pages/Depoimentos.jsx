@@ -5,17 +5,17 @@ const depoimentos = [
     {
         nome: "Vanessa Silva",
         frase: "O trabalho do Tárcio impactou diretamente nossa presença digital. Profissionalismo absoluto!",
-        imagem: "https://randomuser.me/api/portraits/women/44.jpg"
+        imagem: "https://cdn-icons-png.flaticon.com/512/847/847969.png"
     },
     {
         nome: "Carlos António",
         frase: "Transformou nossa ideia num projeto real. Hoje temos mais clientes e reconhecimento.",
-        imagem: "https://randomuser.me/api/portraits/men/32.jpg"
+        imagem: "https://cdn-icons-png.flaticon.com/512/847/847969.png"
     },
     {
         nome: "Joana Costa",
         frase: "Além de criativo, é muito estratégico. Super recomendo o Tárcio para qualquer negócio digital.",
-        imagem: "https://randomuser.me/api/portraits/women/68.jpg"
+        imagem: "https://cdn-icons-png.flaticon.com/512/847/847969.png"
     }
 ];
 
@@ -52,9 +52,12 @@ const Depoimentos = () => {
                         </motion.div>
                     ))}
                 </div>
+
+
             </div>
         </section>
     );
 };
 
 export default Depoimentos;
+

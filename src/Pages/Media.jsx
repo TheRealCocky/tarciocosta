@@ -3,41 +3,45 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
-
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-
+import Tarcio from '../images/tarcio2.png';
+import Tarcio2 from '../images/tarcio1.png';
 const mediaItems = [
     {
-        titulo: "Entrevista na Forbes África",
-        descricao: "Tárcio fala sobre inovação digital e empreendedorismo em Angola.",
-        link: "https://forbesafrica.com",
-        imagem: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Forbes_logo.svg/2560px-Forbes_logo.svg.png"
+        "titulo": "Forbes África Lusófona — Jovem angolano emprega mais de 170 pessoas",
+        "descricao": "Matéria da Forbes África Lusófona destaca Como Tárcio Costa, CEO da Digital Move, emprega mais de 170 pessoas aos 18 anos.",
+        "link": "https://forbesafricalusofona.com/aos-18-anos-jovem-angolano-ja-emprega-mais-de-170-pessoas/",
+        "imagem": Tarcio2
     },
     {
-        titulo: "Podcast Jovens Empreendedores",
-        descricao: "Discussão sobre oportunidades e desafios do mundo digital.",
-        link: "https://spotify.com",
-        imagem: "https://cdn-icons-png.flaticon.com/512/5968/5968926.png"
+        "titulo": "Forbes África Lusófona — Investimento na ElevaFit",
+        "descricao": "A Forbes destacou o investimento de Tárcio Costa na marca ElevaFit Supplement, patenteada nos EUA.",
+        "link": "https://forbesafricalusofona.com/empresario-tarcio-costa-investe-45-mil-euros-na-abertura-da-elevafit-supplement-patenteada-nos-estados-unidos/",
+        "imagem":Tarcio
+    },
+
+    {
+        titulo: "Entrevista no programa da Blindada - Zap News",
+        descricao: "Participação especial no programa mais visto da televisão angolana.",
+        link: "https://www.youtube.com/watch?v=RZLNVRLMtO8&list=PLzQkLKxL3y_yD1qvbYLAZG0fmHavx3qEc&index=1",
+        imagem: "https://img.youtube.com/vi/RZLNVRLMtO8/hqdefault.jpg"
     },
     {
-        titulo: "Entrevista em vídeo - TPA",
-        descricao: "Participação especial em um programa nacional.",
-        video: "https://www.youtube.com/embed/dQw4w9WgXcQ"
+        titulo: "Podcast J@CAST",
+        descricao: "Tárcio fala sobre mindset, negócios digitais e a realidade do empreendedorismo angolano.",
+        link: "https://www.youtube.com/watch?v=tfyZ2QxRVDo&t=4944s",
+        imagem: "https://img.youtube.com/vi/tfyZ2QxRVDo/hqdefault.jpg"
     },
+
     {
-        titulo: "Artigo na Revista Economia",
-        descricao: "Tárcio entre os jovens que impulsionam a economia digital.",
-        link: "https://example.com/artigo1",
-        imagem: "https://img.freepik.com/vetores-premium/artigo-da-noticia_23-2147508429.jpg"
-    },
-    {
-        titulo: "Entrevista na Platina FM",
-        descricao: "Visão sobre startups e impacto da juventude empreendedora.",
-        link: "https://example.com/platina",
-        imagem: "https://media.istockphoto.com/id/1211656723/pt/vetorial/radio-broadcasting-studio-on-air-flat-color-vector-illustration.jpg"
+        titulo: "(PT)I EP 10 – Podcast Internacional",
+        descricao: "Tárcio Costa em conversa com Allen Macuacua e Kenneth Khensile sobre liderança africana.",
+        link: "https://www.youtube.com/watch?v=oYiB3xiMhRs",
+        imagem: "https://img.youtube.com/vi/oYiB3xiMhRs/hqdefault.jpg"
     }
+
 ];
 
 const Media = () => {
