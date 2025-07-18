@@ -32,10 +32,5 @@ export const mediaData = [
         link: "https://www.youtube.com/watch?v=oYiB3xiMhRs",
         imagem: "https://img.youtube.com/vi/oYiB3xiMhRs/hqdefault.jpg"
     },
-    {
-        titulo: "Entrevista na Platina FM",
-        descricao: "Visão sobre startups e impacto da juventude empreendedora.",
-        link: "https://example.com/platina",
-        imagem: "https://media.istockphoto.com/id/1211656723/pt/vetorial/radio-broadcasting-studio-on-air-flat-color-vector-illustration.jpg"
-    }
+
 ];
